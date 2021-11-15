@@ -61,7 +61,6 @@ main{
     padding: 5px;
 }
 
-/* incompleto da qui in poi */
 
 footer{
     position: fixed;
@@ -80,17 +79,29 @@ footer{
     justify-content: space-between;
 }
 
-.content-left{
+.content-left, .middle-content{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
-.content-left .item{
+.item{
 
-    margin: 10px 0;
+    margin: 0 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.green{
+    color: limegreen;
+}
+
+.leave {
+    line-height: 80px;
+    color:red;
+    background-color: grey;
+    padding: 0 20px;
+    text-align: center;
+}
